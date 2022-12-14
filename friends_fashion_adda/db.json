@@ -1,0 +1,586 @@
+{
+  "Mens": [
+    {
+      "id": "1",
+      "category": "shirt",
+      "image": "https://images.bewakoof.com/t540/modern-noise-red-checks-shirts-427965-1636955546-1.jpg",
+      "name": "Black Full Sleeve Shirt",
+      "price": "699",
+      "canceledprice": "1399",
+      "tribe": "₹ 719 For TriBe Members"
+    },
+    {
+      "id": "2",
+      "category": "kurta",
+      "image": "https://images.bewakoof.com/t320/teal-solid-mandarin-neck-long-kurta-437157-1637244552-1.jpg",
+      "name": "Men's Solid Casual Long Kurta",
+      "price": "799",
+      "canceledprice": "1749",
+      "tribe": "₹ 719 For TriBe Members"
+    },
+    {
+      "id": "3",
+      "category": "kurta",
+      "image": "https://images.bewakoof.com/t320/blue-solid-mandarin-neck-short-kurta-437151-1637246628-1.jpg",
+      "name": "Men's Solid Casual Short Kurta",
+      "price": "599",
+      "canceledprice": "1549",
+      "tribe": "₹ 719 For TriBe Members"
+    },
+    {
+      "id": "4",
+      "category": "shirt",
+      "image": "https://images.bewakoof.com/t320/tom-aop-half-sleeve-shirt-men-s-casual-poplin-collab-aop-shirt-351522-1630495479-1.jpg",
+      "name": "Tom & Jerry AOP Half Sleeve Shirt",
+      "price": "499",
+      "canceledprice": "1599",
+      "tribe": "₹ 719 For TriBe Members"
+    },
+    {
+      "id": "5",
+      "category": "shirt",
+      "image": "https://images.bewakoof.com/t320/floral-rose-white-half-sleeve-shirt-men-s-casual-poplin-aop-shirt-351521-1630409170-1.jpg",
+      "name": "Floral Rose White Half Sleeve Shirt",
+      "price": "499",
+      "canceledprice": "1599",
+      "tribe": "₹ 719 For TriBe Members"
+    },
+    {
+      "id": "6",
+      "category": "kurta",
+      "image": "https://images.bewakoof.com/t540/men-s-solid-festive-kurta-403790-1634201295-1.jpg",
+      "name": "Men's Solid Festive Kurta",
+      "price": "899",
+      "canceledprice": "1849",
+      "tribe": "₹ 719 For TriBe Members"
+    },
+    {
+      "id": "7",
+      "category": "shirt",
+      "image": "https://images.bewakoof.com/t540/men-s-printed-mandarin-collar-full-sleeves-shirt-364801-1635868893-1.jpg",
+      "name": "Floral Rose White Half Sleeve Shirt",
+      "price": "799",
+      "canceledprice": "1599",
+      "tribe": "₹ 719 For TriBe Members"
+    },
+    {
+      "id": "8",
+      "category": "kurta",
+      "image": "https://images.bewakoof.com/t320/men-s-solid-festive-kurta-403793-1634200561-1.jpg",
+      "name": "Men's Solid Festive Kurta",
+      "price": "1099",
+      "canceledprice": "1849",
+      "tribe": "₹ 719 For TriBe Members"
+    },
+    {
+      "id": "9",
+      "category": "kurta",
+      "image": "https://images.bewakoof.com/t320/hangup-3-pics-3pc-kurta-pyjama-sherwani3pc-s43greysilkkp-kurta-382994-1627126010.jpg",
+      "name": "Men's Solid Festive Kurta",
+      "price": "3499",
+      "canceledprice": "5449",
+      "tribe": "₹ 719 For TriBe Members"
+    },
+    {
+      "id": "10",
+      "category": "kurta",
+      "image": "https://images.bewakoof.com/t320/men-s-solid-festive-kurta-403784-1634201715-1.jpg",
+      "name": "Men's Solid Festive Kurta",
+      "price": "499",
+      "canceledprice": "1549",
+      "tribe": "₹ 719 For TriBe Members"
+    },
+    {
+      "id": "11",
+      "category": "shirt",
+      "image": "https://images.bewakoof.com/t320/breakbounce-men-s-orange-abstract-printed-boxy-fit-shirt-457779-1639762200-1.jpg",
+      "name": "Floral Rose White Half Sleeve Shirt",
+      "price": "1599",
+      "canceledprice": "2599",
+      "tribe": "₹ 719 For TriBe Members"
+    },
+    {
+      "id": "12",
+      "category": "shirt",
+      "image": "https://images.bewakoof.com/t320/javinishka-men-s-grey-striped-slim-fit-shirt-452481-1638804002-1.jpg",
+      "name": "Floral Rose White Half Sleeve Shirt",
+      "price": "1499",
+      "canceledprice": "2199",
+      "tribe": "₹ 719 For TriBe Members"
+    },
+    {
+      "id": "13",
+      "category": "shirt",
+      "image": "https://images.bewakoof.com/t320/breakbounce-men-s-grey-abstract-printed-shirt-457780-1639761935-1.jpg",
+      "name": "Floral Rose White Half Sleeve Shirt",
+      "price": "699",
+      "canceledprice": "2699",
+      "tribe": "₹ 719 For TriBe Members"
+    },
+    {
+      "id": "14",
+      "category": "kurta",
+      "image": "https://images.bewakoof.com/t540/men-s-solid-knit-black-kurta-321887-1635868802-1.jpg",
+      "name": "Men's Solid Festive Kurta",
+      "price": "799",
+      "canceledprice": "1849",
+      "tribe": "₹ 719 For TriBe Members"
+    },
+    {
+      "id": "15",
+      "category": "kurta",
+      "image": "https://images.bewakoof.com/t320/men-s-solid-festive-kurta-403792-1634200874-1.jpg",
+      "name": "Men's Solid Festive Kurta",
+      "price": "699",
+      "canceledprice": "1099",
+      "tribe": "₹ 719 For TriBe Members"
+    },
+    {
+      "id": "16",
+      "category": "shirt",
+      "image": "https://images.bewakoof.com/t320/campus-sutra-men-s-black-checkered-shirt-451291-1637612980-1.jpg",
+      "name": "Floral Rose White Half Sleeve Shirt",
+      "price": "1199",
+      "canceledprice": "1599",
+      "tribe": "₹ 719 For TriBe Members"
+    },
+    {
+      "id": "17",
+      "category": "kurta",
+      "image": "https://images.bewakoof.com/t540/men-s-relaxed-fit-black-solid-short-kurta-302583-1637855182-1.jpg",
+      "name": "Men's Solid Festive Kurta",
+      "price": "699",
+      "canceledprice": "1099",
+      "tribe": "₹ 719 For TriBe Members"
+    },
+    {
+      "id": "18",
+      "category": "shirt",
+      "image": "https://images.bewakoof.com/t320/campus-sutra-men-s-white-printed-shirt-451415-1637613922-1.jpg",
+      "name": "Floral Rose White Half Sleeve Shirt",
+      "price": "899",
+      "canceledprice": "1499",
+      "tribe": "₹ 719 For TriBe Members"
+    },
+    {
+      "id": "19",
+      "category": "Tshirt",
+      "image": "https://images.bewakoof.com/t320/paradise-half-sleeve-t-shirt-495687-1651502605-1.jpg",
+      "name": "Men's Black Paradise 2022 Graphic Printed T-shirt",
+      "price": "299",
+      "canceledprice": "999",
+      "tribe": "₹ 279 For TriBe Members"
+    },
+    {
+      "id": "20",
+      "category": "Tshirt",
+      "image": "https://images.bewakoof.com/t320/one-with-the-universe-half-sleeve-t-shirt-483037-1648223173-1.jpg",
+      "name": "Men's Blue One With the Universe Graphic Printed T-shirt",
+      "price": "399",
+      "canceledprice": "999",
+      "tribe": "₹ 369 For TriBe Members"
+    },
+    {
+      "id": "21",
+      "category": "Tshirt",
+      "image": "https://images.bewakoof.com/t320/world-peace-473363-1645723786-1.jpg",
+      "name": "Men's Pink World Peace T-shirt",
+      "price": "399",
+      "canceledprice": "799",
+      "tribe": "₹ 369 For TriBe Members"
+    },
+    {
+      "id": "22",
+      "category": "Tshirt",
+      "image": "https://images.bewakoof.com/t320/game-over-minimal-half-sleeve-t-shirt-navy-blue-305202-1637855533-1.jpg",
+      "name": "Game Over Minimal Half Sleeve T-Shirt Navy Blue",
+      "price": "399",
+      "canceledprice": "499",
+      "tribe": "₹ 359 For TriBe Members"
+    },
+    {
+      "id": "23",
+      "category": "Tshirt",
+      "image": "https://images.bewakoof.com/t320/hell-no-monday-half-sleeve-t-shirt-navy-blue-343973-1632151924-5.jpg",
+      "name": "Hell No Monday Half Sleeve T-Shirt Navy Blue",
+      "price": "399",
+      "canceledprice": "799",
+      "tribe": "₹ 369 For TriBe Members"
+    },
+    {
+      "id": "24",
+      "category": "Tshirt",
+      "image": "https://images.bewakoof.com/t320/sunset-block-half-sleeve-t-shirt-271582-1637854985-1.jpg",
+      "name": "Sunset Block Half Sleeve T-Shirt",
+      "price": "399",
+      "canceledprice": "499",
+      "tribe": "₹ 359 For TriBe Members"
+    },
+    {
+      "id": "25",
+      "category": "Tshirt",
+      "image": "https://images.bewakoof.com/t320/busy-doin-nothing-half-sleeve-t-shirt-287587-1632149262-4.jpg",
+      "name": "Men's Blue Busy Doing Nothing T-shirt",
+      "price": "399",
+      "canceledprice": "499",
+      "tribe": "₹ 359 For TriBe Members"
+    },
+    {
+      "id": "26",
+      "category": "Tshirt",
+      "image": "https://images.bewakoof.com/t320/iron-man-of-war-half-sleeve-t-shirt-avl-220650-1635867920-4.jpg",
+      "name": "Men's Black Iron Man Of War T-shirt",
+      "price": "399",
+      "canceledprice": "499",
+      "tribe": "₹ 359 For TriBe Members"
+    },
+    {
+      "id": "27",
+      "category": "Tshirt",
+      "image": "https://images.bewakoof.com/t320/save-our-home-half-sleeve-t-shirt-276160-1637996048-1.jpg",
+      "name": "Men's Black Save Our Home T-shirt",
+      "price": "399",
+      "canceledprice": "499",
+      "tribe": "₹ 719 For TriBe Members"
+    }
+  ],
+  "womens": [
+    {
+      "id": "28",
+      "gender": "female",
+      "category": "shirt",
+      "image": "https://images.bewakoof.com/t320/women-s-solid-v-neck-half-sleeve-red-casual-shirt-353228-1635869647-5.jpg",
+      "name": "Women's Solid V-Neck Half Sleeve Red Casual Shirt",
+      "price": "399",
+      "canceledprice": "1099",
+      "tribe": "₹ 369 For TriBe Members"
+    },
+    {
+      "id": "29",
+      "gender": "female",
+      "category": "kurta",
+      "image": "https://images.bewakoof.com/t320/women-s-printed-long-kurti-dress-364700-1635869709-1.jpg",
+      "name": "Women's Printed Long Kurti Dress",
+      "price": "499",
+      "canceledprice": "1849",
+      "tribe": "₹ 459 For TriBe Members"
+    },
+    {
+      "id": "30",
+      "gender": "female",
+      "category": "kurta",
+      "image": "https://images.bewakoof.com/t320/womens-mid-printed-kurta-318121-1640351218-1.jpg",
+      "name": "Women's Green All Over Printed Kurta",
+      "price": "499",
+      "canceledprice": "1399",
+      "tribe": "₹ 459 For TriBe Members"
+    },
+    {
+      "id": "31",
+      "gender": "female",
+      "category": "shirt",
+      "image": "https://images.bewakoof.com/t320/women-s-printed-relaxed-short-sleeves-shirt-364675-1635869581-1.jpg",
+      "name": "Women's Printed Relaxed Short Sleeves Shirt",
+      "price": "499",
+      "canceledprice": "1399",
+      "tribe": "₹ 459 For TriBe Members"
+    },
+    {
+      "id": "32",
+      "gender": "female",
+      "category": "shirt",
+      "image": "https://images.bewakoof.com/t320/women-s-all-over-printed-tie-hem-half-sleeve-casual-white-shirt-353239-1638215062-7.jpg",
+      "name": "Women's All Over Printed Tie Hem Half Sleeve Casual White Shirt",
+      "price": "449",
+      "canceledprice": "1349",
+      "tribe": "₹ 419 For TriBe Members"
+    },
+    {
+      "id": "33",
+      "gender": "female",
+      "category": "kurta",
+      "image": "https://images.bewakoof.com/t320/women-s-solid-long-kurta-318333-1635870595-1.jpg",
+      "name": "Women's Solid Long Kurta",
+      "price": "499",
+      "canceledprice": "1399",
+      "tribe": "₹ 459 For TriBe Members"
+    },
+    {
+      "id": "34",
+      "gender": "female",
+      "category": "shirt",
+      "image": "https://images.bewakoof.com/t320/retro-red-stripe-shirt-343565-1635869252-6.jpg",
+      "name": "Retro Red Stripe Shirt",
+      "price": "499",
+      "canceledprice": "1599",
+      "tribe": "₹ 459 For TriBe Members"
+    },
+    {
+      "id": "35",
+      "gender": "female",
+      "category": "kurta",
+      "image": "https://images.bewakoof.com/t320/women-s-solid-long-kurta-318348-1635869472-1.jpg",
+      "name": "Women's Solid Long Kurta",
+      "price": "499",
+      "canceledprice": "1399",
+      "tribe": "₹ 459 For TriBe Members"
+    },
+    {
+      "id": "36",
+      "gender": "female",
+      "category": "kurta",
+      "image": "https://images.bewakoof.com/t320/womens-mid-solid-kurta-318131-1635868936-1.jpg",
+      "name": "Womens Mid Solid Kurta",
+      "price": "499",
+      "canceledprice": "1299",
+      "tribe": "₹ 459 For TriBe Members"
+    },
+    {
+      "id": "37",
+      "gender": "female",
+      "category": "kurta",
+      "image": "https://images.bewakoof.com/t320/women-s-sleeveless-printed-side-slit-kurta-364683-1635869241-1.jpg",
+      "name": "Women's Sleeveless Printed Side Slit Kurta",
+      "price": "499",
+      "canceledprice": "1899",
+      "tribe": "₹ 459 For TriBe Members"
+    },
+    {
+      "id": "38",
+      "gender": "female",
+      "category": "shirt",
+      "image": "https://images.bewakoof.com/t320/dazzling-rose-cotton-lineen-half-sleeve-shirt-women-s-solid-cotton-linen-half-sleeve-shirt-362749-1625219060.jpg",
+      "name": "Women's Linen Half Sleeves Lapel Collar Pocket Shirt",
+      "price": "499",
+      "canceledprice": "1499",
+      "tribe": "₹ 459 For TriBe Members"
+    },
+    {
+      "id": "39",
+      "gender": "female",
+      "category": "shirt",
+      "image": "https://images.bewakoof.com/t320/women-s-all-over-printed-sleeveless-casual-blue-shirt-353220-1638219153-1.jpg",
+      "name": "Women's All Over Printed Sleeveless Casual Blue Shirt",
+      "price": "399",
+      "canceledprice": "1199",
+      "tribe": "₹ 369 For TriBe Members"
+    },
+    {
+      "id": "40",
+      "gender": "female",
+      "category": "shirt",
+      "image": "https://images.bewakoof.com/t320/women-s-solid-sleeveless-casual-orange-shirt-353227-1635870422-6.jpg",
+      "name": "Women's Solid Sleeveless Casual Orange Shirt",
+      "price": "349",
+      "canceledprice": "999",
+      "tribe": "₹ 319 For TriBe Members"
+    },
+    {
+      "id": "41",
+      "gender": "female",
+      "category": "kurta",
+      "image": "https://images.bewakoof.com/t320/women-s-sleeveless-printed-side-slit-kurta-364685-1635869426-1.jpg",
+      "name": "Women's Sleeveless Printed Side Slit Kurta",
+      "price": "499",
+      "canceledprice": "1899",
+      "tribe": "₹ 459 For TriBe Members"
+    },
+    {
+      "id": "42",
+      "gender": "female",
+      "category": "kurta",
+      "image": "https://images.bewakoof.com/t320/women-s-chill-out-printed-white-kurta-318377-1635869190-6.jpg",
+      "name": "Women's Chill Out Printed White Kurta",
+      "price": "599",
+      "canceledprice": "1399",
+      "tribe": "₹ 549 For TriBe Members"
+    },
+    {
+      "id": "43",
+      "gender": "female",
+      "category": "shirt",
+      "image": "https://images.bewakoof.com/t320/women-s-linen-half-sleeves-lapel-collar-pocket-shirt-369400-1636984096-5.jpg",
+      "name": "Women's Linen Half Sleeves Lapel Collar Pocket Shirt",
+      "price": "499",
+      "canceledprice": "1499",
+      "tribe": "₹ 459 For TriBe Members"
+    },
+    {
+      "id": "44",
+      "gender": "female",
+      "category": "kurta",
+      "image": "https://images.bewakoof.com/t320/women-s-printed-long-kurta-318374-1638212620-1.jpg",
+      "name": "Women's Printed Long Kurta",
+      "price": "599",
+      "canceledprice": "1399",
+      "tribe": "₹ 549 For TriBe Members"
+    },
+    {
+      "id": "45",
+      "gender": "female",
+      "category": "shirt",
+      "image": "https://images.bewakoof.com/t320/women-s-printed-relaxed-short-sleeves-shirt-364741-1635870092-1.jpg",
+      "name": "Women's Printed Relaxed Short Sleeves Shirt",
+      "price": "499",
+      "canceledprice": "1399",
+      "tribe": "₹ 459 For TriBe Members"
+    },
+    {
+      "id": "46",
+      "gender": "female",
+      "category": "Tshirt",
+      "image": "https://images.bewakoof.com/t320/summer-paradise-oversized-fit-t-shirt-495681-1651502583-1.jpg",
+      "name": "Women's Purple Summer Paradise Graphic Printed Oversized T-shirt",
+      "price": "399",
+      "canceledprice": "1299",
+      "tribe": "₹ 369 For TriBe Members"
+    },
+    {
+      "id": "47",
+      "gender": "female",
+      "category": "Tshirt",
+      "image": "https://images.bewakoof.com/t320/been-there-2-0-boyfriend-t-shirt-482683-1648181861-1.jpg",
+      "name": "Women's Yellow Been There Boyfriend T-shirt",
+      "price": "399",
+      "canceledprice": "999",
+      "tribe": "₹ 369 For TriBe Members"
+    },
+    {
+      "id": "48",
+      "gender": "female",
+      "category": "Tshirt",
+      "image": "https://images.bewakoof.com/t320/been-there-2-0-boyfriend-t-shirt-482681-1648181882-1.jpg",
+      "name": "Women's Black Been There Boyfriend T-shirt",
+      "price": "399",
+      "canceledprice": "999",
+      "tribe": "₹ 369 For TriBe Members"
+    },
+    {
+      "id": "49",
+      "gender": "female",
+      "category": "Tshirt",
+      "image": "https://images.bewakoof.com/t320/nerdy-pooh-boyfriend-t-shirt-480749-1647265646-1.jpg",
+      "name": "Women's Purple Sorry Boyfriend T-shirt",
+      "price": "399",
+      "canceledprice": "999",
+      "tribe": "₹ 369 For TriBe Members"
+    },
+    {
+      "id": "50",
+      "gender": "female",
+      "category": "Tshirt",
+      "image": "https://images.bewakoof.com/t320/all-day-everyday-boyfriend-t-shirt-387286-1649427012-5.jpg",
+      "name": "All Day Everyday Boyfriend T-Shirt",
+      "price": "399",
+      "canceledprice": "799",
+      "tribe": "₹ 369 For TriBe Members"
+    },
+    {
+      "id": "51",
+      "gender": "female",
+      "category": "Tshirt",
+      "image": "https://images.bewakoof.com/t320/climbing-pocket-panda-boyfriend-t-shirt-231686-1640346500-5.jpg",
+      "name": "Climbing Pocket Panda Boyfriend T-Shirt",
+      "price": "399",
+      "canceledprice": "549",
+      "tribe": "₹ 359 For TriBe Members"
+    },
+    {
+      "id": "52",
+      "gender": "female",
+      "category": "Tshirt",
+      "image": "https://images.bewakoof.com/t320/women-s-birthday-yellow-stripe-relaxed-fit-short-top-479965-1648643094-1.jpg",
+      "name": "Women's Birthday Yellow Stripe Short Top",
+      "price": "599",
+      "canceledprice": "899",
+      "tribe": "₹ 549 For TriBe Members"
+    },
+    {
+      "id": "53",
+      "gender": "female",
+      "category": "Tshirt",
+      "image": "https://images.bewakoof.com/t320/hello-sunshine-boyfriend-t-shirts-navy-blue-women-s-printed-boyfriend-t-shirts-296647-1604644838.jpg",
+      "name": "Hello Sunshine Boyfriend T-Shirt Navy Blue",
+      "price": "399",
+      "canceledprice": "549",
+      "tribe": "₹ 369 For TriBe Members"
+    },
+    {
+      "id": "54",
+      "gender": "female",
+      "category": "Tshirt",
+      "image": "https://images.bewakoof.com/t320/sarcastic-one-boyfriend-t-shirt-dl--386575-1632151253-5.jpg",
+      "name": "Sarcastic One Boyfriend Women's T-shirt (DL)",
+      "price": "399",
+      "canceledprice": "799",
+      "tribe": "₹ 369 For TriBe Members"
+    }
+  ],
+  "cart": [
+    {
+      "productimage_url": "https://images.bewakoof.com/t320/blue-solid-mandarin-neck-short-kurta-437151-1637246628-1.jpg",
+      "productprice": "599",
+      "productname": "Men's Solid Casual Short Kurta",
+      "productcancelprice": "1549",
+      "id": 3
+    },
+    {
+      "product_id": "30",
+      "productimage_url": "https://images.bewakoof.com/t320/womens-mid-printed-kurta-318121-1640351218-1.jpg",
+      "productprice": "499",
+      "productname": "Women's Green All Over Printed Kurta",
+      "productcancelprice": "1399",
+      "id": 4
+    },
+    {
+      "product_id": "29",
+      "productimage_url": "https://images.bewakoof.com/t320/women-s-printed-long-kurti-dress-364700-1635869709-1.jpg",
+      "productprice": "499",
+      "productname": "Women's Printed Long Kurti Dress",
+      "productcancelprice": "1849",
+      "id": 5
+    },
+    {
+      "product_id": "28",
+      "productimage_url": "https://images.bewakoof.com/t320/women-s-solid-v-neck-half-sleeve-red-casual-shirt-353228-1635869647-5.jpg",
+      "productprice": "399",
+      "productname": "Women's Solid V-Neck Half Sleeve Red Casual Shirt",
+      "productcancelprice": "1099",
+      "id": 6
+    }
+  ],
+  "whishlist": [
+    {
+      "productimage_url": "https://images.bewakoof.com/t320/blue-solid-mandarin-neck-short-kurta-437151-1637246628-1.jpg",
+      "productprice": "599",
+      "productname": "Men's Solid Casual Short Kurta",
+      "productcancelprice": "1549",
+      "producttribe": "₹ 719 For TriBe Members",
+      "id": 1
+    },
+    {
+      "productimage_url": "https://images.bewakoof.com/t320/teal-solid-mandarin-neck-long-kurta-437157-1637244552-1.jpg",
+      "productprice": "799",
+      "productname": "Men's Solid Casual Long Kurta",
+      "productcancelprice": "1749",
+      "producttribe": "₹ 719 For TriBe Members",
+      "id": 2
+    },
+    {
+      "product_id": "29",
+      "productimage_url": "https://images.bewakoof.com/t320/women-s-printed-long-kurti-dress-364700-1635869709-1.jpg",
+      "productprice": "499",
+      "productname": "Women's Printed Long Kurti Dress",
+      "productcancelprice": "1849",
+      "id": 5
+    },
+    {
+      "product_id": "30",
+      "productimage_url": "https://images.bewakoof.com/t320/womens-mid-printed-kurta-318121-1640351218-1.jpg",
+      "productprice": "499",
+      "productname": "Women's Green All Over Printed Kurta",
+      "productcancelprice": "1399",
+      "id": 6
+    }
+  ]
+}
