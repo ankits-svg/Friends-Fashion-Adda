@@ -1,0 +1,104 @@
+.A1{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 25px;
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: space-around;
+}
+.H1{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: auto;
+}
+.A2{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.A3{
+    display: flex;
+    justify-content: space-between;
+}
+.N1{
+    /* border: 1px solid black;     */
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+}
+.S1{
+    /* border: 1px solid brown; */
+    width: 97%;
+    height: 500px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    /* background-color: aquamarine; */
+    position: relative;
+}
+.S2{
+    width: 50px;
+    height: 50px;
+    background-color: #EEEEEE;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    
+    margin: auto;
+}
+.P1{
+    /* border: 1px solid red; */
+    width: 86%;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.SP1{
+    display: flex;
+    margin-bottom: 39px;
+}
+.SP2{
+    /* border: 1px solid red; */
+    width: 88%;
+    height: auto;
+    display: flex;
+    margin: auto;
+}
+.SP2>div{
+    /* border: 1px solid #F3F3F3; */
+    width: 51%;
+    justify-content: end;
+}
+.SP2>div img{
+    width: 114%;
+}
+.SP2>div div{
+    /* border: 1px solid black; */
+    width: 51%;
+}
+.SP3{
+    /* border: 1px solid #EFF0AF; */
+    height: 30px;
+    color: black;
+    /* background-color: #EFF0AF; */
+    
+}
+.SP3 h2{
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 5px;
+}
+.SP4{
+    display: flex;
+    margin-bottom: 39px;
+    margin-left: 130px;
+}
+.PWS1{
+    display: flex;
+    
+}
