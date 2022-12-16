@@ -20,7 +20,7 @@ function Home() {
       <div className='P1'><img src="https://images.bewakoof.com/uploads/grid/app/Desktop-Strip-6-1669115141.jpg" alt="error" /></div>
       <StaticPic1/>
       <ProductwithSlider/>
-      <Footer/>
+      
     </div>
   )
 }
