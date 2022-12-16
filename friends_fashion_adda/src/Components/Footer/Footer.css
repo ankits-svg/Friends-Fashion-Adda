@@ -1,0 +1,62 @@
+
+.F1{
+    /* border: 1px solid black; */
+    margin-top: 40px;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #181818;
+}
+.F1>div{
+    /* border: 1px solid black; */
+    width: 70%;
+    margin: auto;
+}
+.F2{
+    /* border: 1px solid white; */
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.F2 div{
+    /* border: 2px solid white; */
+    width: auto;
+    justify-content: space-around;
+}
+.F3{
+    font-weight: bold;
+    color: #FDCC22;
+    background-color: #181818;
+}
+h4{
+    color: white;
+}
+.F5 h1{
+    color: #FDCC22;
+    display: flex   ;
+    margin-left: 10px;
+}
+.F5 Input{
+    padding: 6px;
+    border-bottom: #FDCC22;
+}
+.F5 button{
+    background-color: #FDCC22;
+    padding: 6px;
+    border-radius: 4px;
+}
+.F4{
+    display: flex;
+    width: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+hr{
+   background-color: white;
+   margin-top: 20px;
+}

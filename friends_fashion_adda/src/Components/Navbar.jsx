@@ -2,22 +2,22 @@ import { Box, Container,Text,Input,FormControl,Image,Heading,Wrap,HStack } from 
 import image from '../Images/Logo.png'
 import React from 'react'
 import { FavoriteBorder, Search } from '@mui/icons-material'
-
+import { Link as RouterLink } from 'react-router-dom'
 import { BsCart } from 'react-icons/bs';
 
 function Navbar() {
   return (
-    <Container display={'flex'}>
+    <Container display={'flex'} >
         
         <Box p={2} display={'flex'} gap='60px' justifyContent={'space-evenly'} alignItems={'center'} textAlign='center' marginLeft={'-320px'}>
-            <Box display={'flex'}>
-                <Text fontSize={'30px'} fontFamily={'Pacifico', 'cursive'} cursor='pointer'>Friend's</Text>
-                <Text fontSize={'30px'} fontFamily={'Pacifico', 'cursive'} cursor='pointer'>Fashion</Text>
-                <Text fontSize={'30px'} fontFamily={'Pacifico', 'cursive'} cursor='pointer'>Adda</Text>
-            </Box>
-            <Text cursor='pointer'>Men</Text>
-            <Text cursor='pointer'>Women</Text>
-            <Text cursor='pointer'>Mobile Covers</Text>
+            <RouterLink to='/'><Box display={'flex'}>
+                <Text cursor='pointer' color={'#FEC304'} fontSize={'30px'} fontFamily={'Pacifico', 'cursive'} cursor='pointer'>Friend's</Text>
+                <Text cursor='pointer' color={'#62615F'} fontSize={'30px'} fontFamily={'Pacifico', 'cursive'} cursor='pointer'>Fashion</Text>
+                <Text cursor='pointer' color={'#FEC304'} fontSize={'30px'} fontFamily={'Pacifico', 'cursive'} cursor='pointer'>Adda</Text>
+            </Box></RouterLink>
+            <RouterLink to='/men'><Text cursor='pointer'>Men</Text></RouterLink>
+            <RouterLink to='/women'><Text cursor='pointer'>Women</Text></RouterLink>
+            <RouterLink to='/mobile'><Text cursor='pointer'>Mobile Covers</Text></RouterLink>
             
         </Box>
         <Box p={2} display={'flex'} gap='60px' justifyContent={'space-evenly'} alignItems={'center'} textAlign='center'>
@@ -27,9 +27,10 @@ function Navbar() {
                 
             </FormControl>
             <Text>|</Text>
-            <Text cursor='pointer'>Login</Text>
-            <FavoriteBorder/>
-            <BsCart cursor='pointer'/>
+            <RouterLink to='/login'><Text cursor='pointer'>Login</Text></RouterLink>
+            <RouterLink to='/register'><Text cursor='pointer'>Register</Text></RouterLink>
+            <RouterLink to='/wishlist'><FavoriteBorder cursor='pointer'/></RouterLink>
+            <RouterLink to='/cart'><BsCart cursor='pointer'/></RouterLink>
 
         </Box>
     </Container>
