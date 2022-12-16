@@ -1,0 +1,19 @@
+.F1{
+    border: 1px solid black;
+    margin-top: 40px;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+.F1 div:nth-child(2){
+    border: 1px solid black;
+    width: 70%;
+}
+.F2{
+    border: 1px solid red;
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+}

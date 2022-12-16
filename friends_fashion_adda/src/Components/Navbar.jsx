@@ -11,9 +11,9 @@ function Navbar() {
         
         <Box p={2} display={'flex'} gap='60px' justifyContent={'space-evenly'} alignItems={'center'} textAlign='center' marginLeft={'-320px'}>
             <Box display={'flex'}>
-                <Text fontSize={'30px'} fontFamily={'Pacifico', 'cursive'} cursor='pointer'>Friend's</Text>
-                <Text fontSize={'30px'} fontFamily={'Pacifico', 'cursive'} cursor='pointer'>Fashion</Text>
-                <Text fontSize={'30px'} fontFamily={'Pacifico', 'cursive'} cursor='pointer'>Adda</Text>
+                <Text cursor='pointer' color={'#FEC304'} fontSize={'30px'} fontFamily={'Pacifico', 'cursive'} cursor='pointer'>Friend's</Text>
+                <Text cursor='pointer' color={'#62615F'} fontSize={'30px'} fontFamily={'Pacifico', 'cursive'} cursor='pointer'>Fashion</Text>
+                <Text cursor='pointer' color={'#FEC304'} fontSize={'30px'} fontFamily={'Pacifico', 'cursive'} cursor='pointer'>Adda</Text>
             </Box>
             <Text cursor='pointer'>Men</Text>
             <Text cursor='pointer'>Women</Text>
@@ -28,7 +28,7 @@ function Navbar() {
             </FormControl>
             <Text>|</Text>
             <Text cursor='pointer'>Login</Text>
-            <FavoriteBorder/>
+            <FavoriteBorder cursor='pointer'/>
             <BsCart cursor='pointer'/>
 
         </Box>

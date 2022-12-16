@@ -7,7 +7,7 @@ import {SimpleSlider} from '../Components/Carousel/SimpleSlider'
 import '../Style/styles.css'
 import StaticPic1 from '../Components/StaticPic1'
 import ProductwithSlider from '../Components/ProductwithSlider'
-import { Footer } from '../Components/Footer/Footer'
+import Footer from '../Components/Footer/Footer'
 function Home() {
   return (
     // <Container className='H1' height={'80px'} backgroundColor={'white'} color='black' alignItems={'center'}>

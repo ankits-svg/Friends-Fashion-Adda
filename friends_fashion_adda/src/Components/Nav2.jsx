@@ -6,19 +6,19 @@ function Nav2() {
     <div className='N1'>
     <Flex color='white'>
   <Flex  flex='1'>
-    <Text color={'black'}>LIVE NOW!</Text>
+    <Text color={'black'} cursor='pointer'>LIVE NOW!</Text>
   </Flex>
   <Flex flex='1'>
-    <Text color={'black'}>MEN</Text>
+    <Text color={'black'} cursor='pointer'>MEN</Text>
   </Flex>
   <Box flex='1'>
-    <Text color={'black'}>WOMEN</Text>
+    <Text color={'black'} cursor='pointer'>WOMEN</Text>
   </Box>
   <Box flex='1' >
-    <Text color={'black'}>ACCESSORIES</Text>
+    <Text color={'black'} cursor='pointer'>ACCESSORIES</Text>
   </Box>
   <Box flex='1'>
-    <Text color={'black'}>WINTERWEAR</Text>
+    <Text color={'black'} cursor='pointer'>WINTERWEAR</Text>
   </Box>
 </Flex>
     </div>
