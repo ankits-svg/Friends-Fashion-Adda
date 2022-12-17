@@ -1,8 +1,9 @@
-import Image from '../Images/Logo.png'
+import { Spinner } from '@chakra-ui/spinner';
+
 
 function Loader(){
     return (
-        <img src={Image} alt="error" />
+        <Spinner color='red.500' />
     )
 }
 

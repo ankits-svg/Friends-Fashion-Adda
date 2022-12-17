@@ -8,6 +8,8 @@ import Women from '../Pages/Women'
 import Mobile from '../Pages/Mobile'
 import ProductDetails from './ProductDetails'
 import CartPage from './CartPage'
+import ThanksPage from './Cart/ThanksPage'
+import Otp from './Cart/Otp'
 
 function AllRoutes() {
   return (
@@ -21,7 +23,8 @@ function AllRoutes() {
             <Route path='/mobile' element={<Mobile/>}></Route>
             <Route path='/products/:id' element={<ProductDetails/>}></Route>
             <Route path='/cart/:id' element={<CartPage/>}></Route>
-            
+            <Route path='/cart/thanks' element={<ThanksPage/>}></Route>
+            <Route path='/cart/otp' element={<Otp/>}></Route>
         </Routes>
     </div>
   )

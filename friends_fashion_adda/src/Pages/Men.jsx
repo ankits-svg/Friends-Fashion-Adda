@@ -28,23 +28,28 @@ function Men() {
         
       <Grid templateColumns='repeat(4,1fr)' gap={6}>
       {data?.length > 0 && data.map((el)=>{
+       if(loading){
+        <Loader/>
+       }
         return(
           
-         loading ? <Loader/> : <GridItem id={el.id}>
-        <SingleProductPage
-            id={el.id}
-            category={el.category}
-            image={el.image}
-            name={el.name}
-            price={el.price}
-            cancel={el.canceledprice}/>
-          </GridItem>)
+          <GridItem id={el.id}>
+            <SingleProductPage
+                id={el.id}
+                category={el.category}
+                image={el.image}
+                name={el.name}
+                price={el.price}
+                cancel={el.canceledprice}/>
+          </GridItem>
+        )
          
         })}
       </Grid>
       
     </div>
   )
+  
 }
 
 export default Men
