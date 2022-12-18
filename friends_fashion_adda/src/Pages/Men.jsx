@@ -2,7 +2,7 @@ import React from 'react'
 import { useEffect,useState } from 'react'
 import axios from 'axios'
 import SingleProductPage from '../Components/SingleProductPage'
-import { Flex,GridItem,Grid } from '@chakra-ui/react'
+import { Flex,GridItem,Grid, Button } from '@chakra-ui/react'
 import Loader from '../Components/Loader'
 
 
@@ -40,7 +40,10 @@ function Men() {
                 image={el.image}
                 name={el.name}
                 price={el.price}
-                cancel={el.canceledprice}/>
+                cancel={el.canceledprice}
+                tribe={el.tribe}
+                />
+                
           </GridItem>
         )
          

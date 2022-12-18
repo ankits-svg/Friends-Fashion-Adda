@@ -1,0 +1,34 @@
+.cartItems{
+    width: 54%;
+    /* height: 1200px; */
+   /* border: 1px solid; */
+}
+.mainDiv{
+    width: 90%;
+    /* height: 900px; */
+    /* border: 1px solid; */
+    margin: 5%;
+    padding: 10px;
+}
+.yaydiv{
+    width: 100%;
+    height: 60px;
+    /* border: 1px solid; */
+    margin-top: 40px;
+    background-color: #FCFFEE;
+    display: flex;
+    border-radius: 10px;
+}
+.text-yaydiv{
+    color: #004F9C;
+    font-size: xx-small;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+.text-yaydiv2{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}

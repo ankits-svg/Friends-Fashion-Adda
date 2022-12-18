@@ -14,6 +14,11 @@ import {
     IconProps,
     Icon,
   } from '@chakra-ui/react';
+import { useContext, useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
+import {Link as RouterLink} from 'react-router-dom'
+import { AuthContext } from '../contexts/Authcontext';
+import axios from 'axios';
 //   import { useBreakpointValue } from 'react'
   
   const avatars = [
@@ -39,7 +44,15 @@ import {
     },
   ];
   
-  export default function JoinOurTeam() {
+  export default function Login() {
+
+    const toHome=useNavigate();
+
+    const handleSubmit=()=>{
+      alert("You are successfully Logged In")
+      toHome('/')
+    }
+    
     return (
       <Box position={'relative'}>
         <Container
@@ -142,7 +155,7 @@ import {
             </Stack>
             <Box as={'form'} mt={10}>
               <Stack spacing={4}>
-                <Input
+                {/* <Input
                   placeholder="Firstname"
                   bg={'gray.100'}
                   border={0}
@@ -159,9 +172,12 @@ import {
                   _placeholder={{
                     color: 'gray.500',
                   }}
-                />
+                /> */}
                 <Input
-                  placeholder="Password"
+                name="mobileNumber"
+                
+                  placeholder="Mobile No"
+                 
                   bg={'gray.100'}
                   border={0}
                   color={'gray.500'}
@@ -183,6 +199,7 @@ import {
                 </Button> */}
               </Stack>
               <Button
+               onClick={handleSubmit}
                 fontFamily={'heading'}
                 mt={8}
                 w={'full'}
@@ -194,6 +211,7 @@ import {
                 }}>
                 Submit
               </Button>
+              <Text> Already a user? <RouterLink to='/register'><Link color={'blue.400'}>Register</Link></RouterLink></Text>
             </Box>
             form
           </Stack>

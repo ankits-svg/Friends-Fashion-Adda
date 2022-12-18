@@ -16,10 +16,10 @@ import { ParentCart } from './Components/Cart/ParentCart';
 function App() {
   return (
     <div className="App">
-      <ParentCart/>
-      <Payment/>
-      <Otp/>
-      <ThanksPage/>
+      
+      
+      
+      
       <Box >
           <Announcement sticky="top"/>
             <Navbar sticky="top"/>

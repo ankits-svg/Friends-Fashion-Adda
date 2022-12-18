@@ -1,0 +1,56 @@
+.Zcontainer {
+    /* border: 1px solid red; */
+    display: flex;
+    margin-top: 10px;
+}
+
+.Zcontainer > div {
+    /* border: 1px solid black; */
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 50%;
+}
+
+.Zimg_div > img {
+    height: 560px;
+    width: 400px;
+}
+
+.Zimg_div{
+    background-color: #fff7d7;
+    font-family: montserrat-bold, sans-serif;
+    font-style: normal;
+    text-align: center;
+}
+
+.Zlogin_div{
+    text-align: center;
+}
+
+.Zlogin_div > p {
+    color: #A0A0A0;
+    font-family: montserrat-bold, sans-serif;
+    font-size: 18px;
+    margin: 0px 0px 70px;
+    font-weight: 400;
+    word-spacing: 2px;
+}
+
+.Zform {
+    border: 1px solid transparent;
+    width: 450px;
+    margin: auto;
+    margin-bottom: 75px;
+
+}
+
+.Zsocial_button {
+    display: flex;
+    /* border: 1px solid; */
+    width: 402px;
+    margin: auto;
+    width: 60%;
+    margin-top: 22px;
+    justify-content: space-evenly;
+    
+}

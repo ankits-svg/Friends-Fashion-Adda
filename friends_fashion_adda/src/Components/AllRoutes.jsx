@@ -7,9 +7,11 @@ import Men from '../Pages/Men'
 import Women from '../Pages/Women'
 import Mobile from '../Pages/Mobile'
 import ProductDetails from './ProductDetails'
-import CartPage from './CartPage'
+import {ParentCart} from '../Components/Cart/ParentCart'
 import ThanksPage from './Cart/ThanksPage'
 import Otp from './Cart/Otp'
+import Payment from '../Components/Cart/Payment'
+import WishList from './WishList'
 
 function AllRoutes() {
   return (
@@ -20,11 +22,13 @@ function AllRoutes() {
             <Route path='/register' element={<Register/>}></Route>
             <Route path='/men' element={<Men/>}></Route>
             <Route path='/women' element={<Women/>}></Route>
+            <Route path='/wishlist' element={<WishList/>}></Route>
             <Route path='/mobile' element={<Mobile/>}></Route>
             <Route path='/products/:id' element={<ProductDetails/>}></Route>
-            <Route path='/cart/:id' element={<CartPage/>}></Route>
-            <Route path='/cart/thanks' element={<ThanksPage/>}></Route>
+            <Route path='/cart' element={<ParentCart/>}></Route>
+            <Route path='/cart/payment' element={<Payment/>}></Route>
             <Route path='/cart/otp' element={<Otp/>}></Route>
+            <Route path='/cart/thanks' element={<ThanksPage/>}></Route>
         </Routes>
     </div>
   )

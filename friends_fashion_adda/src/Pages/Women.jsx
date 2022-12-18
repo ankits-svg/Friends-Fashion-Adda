@@ -14,6 +14,8 @@ function Women() {
     setData(res.data)
   }).catch((error)=>console.log("error:",error))
   }, [])
+
+  
   return (
     <div>Womens
       <Grid templateColumns='repeat(4,1fr)' gap={6}>
