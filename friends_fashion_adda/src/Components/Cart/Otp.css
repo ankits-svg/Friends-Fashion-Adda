@@ -1,0 +1,14 @@
+.O1{
+    /* border: 1px solid red; */
+    width: 50%;
+   
+    margin: auto;
+    margin-top: 50px;
+}
+.O1 input{
+    padding: 10px;
+    border-color: #FEC304;
+    margin-right: 10px;
+    border-radius: 8px;
+    
+}

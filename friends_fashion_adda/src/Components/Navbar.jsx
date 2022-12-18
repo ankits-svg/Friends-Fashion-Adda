@@ -1,9 +1,10 @@
 import { Box, Container,Text,Input,FormControl,Image,Heading,Wrap,HStack } from '@chakra-ui/react'
 import image from '../Images/Logo.png'
 import React from 'react'
-import { FavoriteBorder, Search } from '@mui/icons-material'
+import { FavoriteBorder, Search,ShoppingCartIcon } from '@mui/icons-material'
 import { Link as RouterLink } from 'react-router-dom'
-import { BsCart } from 'react-icons/bs';
+import { BsCart, BsCart2 } from 'react-icons/bs';
+import { IconButton,StyledBadge } from '@mui/material'
 
 function Navbar() {
   return (
@@ -31,6 +32,7 @@ function Navbar() {
             <RouterLink to='/register'><Text cursor='pointer'>Register</Text></RouterLink>
             <RouterLink to='/wishlist'><FavoriteBorder cursor='pointer'/></RouterLink>
             <RouterLink to='/cart'><BsCart cursor='pointer'/></RouterLink>
+            
 
         </Box>
     </Container>

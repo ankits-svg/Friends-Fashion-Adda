@@ -106,3 +106,7 @@
     display: flex;
     justify-content: space-evenly;
 }
+.sp1{
+    display: flex;
+    justify-content: space-around;
+}

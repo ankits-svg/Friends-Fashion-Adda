@@ -6,19 +6,47 @@ import {
     Text,
     Stack,
     Image,
+    Button,
   } from '@chakra-ui/react';
-import {Link as RouterLink} from 'react-router-dom'
 
-import { CurrencyRupeeOutlined } from '@mui/icons-material';
+
+import { CurrencyRupeeOutlined, FavoriteBorder, ShoppingBagOutlined } from '@mui/icons-material';
+import axios from 'axios';
   
-  const IMAGE =
-    'https://images.unsplash.com/photo-1565691410967-4e1c68077b5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1936&q=80';
+  // const IMAGE =
+  //   'https://images.unsplash.com/photo-1565691410967-4e1c68077b5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1936&q=80';
   
   export default function SingleProductPage({
     id,category,image,name,price,cancel}) {
+
+      const handleCart=()=>{
+        const cartData = {
+          productimage_url: image,
+          productprice: price,
+          productname: name,
+          productcancelprice:cancel
+        };
+        axios.post(`http://localhost:8080/cart`, cartData);
+        
+        console.log("cartData:",cartData);
+      }
+
+      const handleWish=()=>{
+        const WislistData = {
+          productimage_url: image,
+          productprice: price,
+          productname: name,
+          productcancelprice:cancel,
+          
+        };
+          axios.post(`http://localhost:8080/wishlist`, WislistData);
+          console.log("WislistData:",WislistData);
+        };
+      
+
     return (
       <Center py={12}>
-        <RouterLink to={`/products/${id}`}>
+       
         <Box
           role={'group'}
           p={6}
@@ -42,7 +70,7 @@ import { CurrencyRupeeOutlined } from '@mui/icons-material';
               pos: 'absolute',
               top: 5,
               left: 0,
-              backgroundImage: `url(${IMAGE})`,
+              // backgroundImage: `url(${IMAGE})`,
               filter: 'blur(15px)',
               zIndex: -1,
             }}
@@ -79,8 +107,12 @@ import { CurrencyRupeeOutlined } from '@mui/icons-material';
               </Text>
             </Stack>
           </Stack>
+          <Box  className='sp1'>
+          <ShoppingBagOutlined onClick={handleCart} cursor='pointer'/>
+          <FavoriteBorder onClick={handleWish} cursor='pointer'/>
+          </Box>
         </Box>
-        </RouterLink>
+       
       </Center>
     );
   }

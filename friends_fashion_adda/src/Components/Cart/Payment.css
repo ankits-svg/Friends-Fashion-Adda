@@ -1,0 +1,64 @@
+.PY1{
+    border: 1px solid #e1dbdb;
+    width: 50%;
+    height: 500px;
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+
+}
+.PY1>div:nth-child(1){
+    margin: auto;
+    /* border: 1px solid green; */
+    width: 50%;
+    margin-top: 19px;
+    background-color: #e1dbdb;
+}
+.PY1>div:nth-child(2){
+    border: 1px solid #e1dbdb;
+    width: 60%;
+}
+.PY2{
+    display: flex;
+    flex-direction: column;
+}
+.PY2 div{
+    margin-top: 20px;
+    margin: auto;
+    /* text-align: center; */
+    display: flex;
+    margin-top: 20px;
+}
+
+.PY3{
+    margin-top: 20px;
+    border: 1px solid red;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.PY4{
+    margin-top: 20px;
+    /* border: 1px solid red; */
+    width: 60%;
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+.PY5{
+    margin-top: 20px;
+}
+.PI1{
+    display: flex;
+    flex-direction: column;
+}
+.PI1 input{
+    margin: auto;
+    margin-top: 30px;
+    border: none;
+    border-bottom: 2px solid black;
+    width: 60%;
+}
+.PY0{
+    background-color: white;
+}

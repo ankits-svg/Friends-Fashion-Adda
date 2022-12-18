@@ -1,0 +1,180 @@
+.cartTotal{
+    width: 35%;
+    height: 1200px;
+    
+   margin-left: 2%;
+}
+.saveExtradiv{
+  width: 100%;
+  height: 70px;
+  border: 1px solid black;
+  margin-top: 95px;
+  background-color: gold;
+  border-radius: 10px;
+  border: none;
+  padding-top: 3px;
+}
+.inside-saveExtra{
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 4%;
+    font-size: 20px;
+    font-weight: 600;
+   
+}
+.text1{
+  width: 100%;
+  height: 100px;
+  margin-top: 30px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.inside-text1{
+  width: 90%;
+  height: 80px;
+
+  margin-left: 4%;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.wholeprice-box{
+  margin-top: 20px;
+  width: 100%;
+  height: 500px;
+  
+}
+.redeem-box{
+  width: 100%;
+  height: 50px;
+ 
+}
+.inside-redeem{
+  width: 90%;
+  height: 50px;
+  /* border: 1px solid; */
+  display: flex;
+  margin-left: 4%;
+}
+.redeem-input{
+  width: 48%;
+  height: 45px;
+  margin-right: 2%;
+  font-size: 20px;
+  font-weight: 300;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.redeem-btn{
+  width: 48%;
+  height: 50px;
+  margin-left: 2%;
+  border-radius: 10px;
+  background-color: #0ba0a0;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  cursor: pointer;
+  border: none;
+}
+.price-summary{
+  width: 100%;
+  height: 50px;
+  
+  margin-top: 15px;
+  background-color: rgb(230, 227, 227);
+}
+.inside-ps{
+  width: 90%;
+  height: 30px;
+  padding-top: 10px;
+  margin-left: 4%;
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.total-price{
+  width: 100%;
+  height: 300px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.pricedes-box{
+  width: 100%;
+  height: 50px;
+ 
+
+}
+.inside-pdb{
+  width: 90%;
+  height: 50px;
+  
+  display: flex;
+  margin-left: 4%;
+}
+.price-des{
+  width: 75%;
+  height: 30px;
+  
+  margin-top: 10px;
+  font-family: 30px;
+  font-weight: 500;
+}
+.actual-price{
+  width: 25%;
+  height: 30px;
+ 
+  margin-top: 10px;
+  font-family: 30px;
+  font-weight: 500;
+  text-align: end;
+}
+.saving{
+  width: 90%;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px ;
+  margin-left: 4%;
+  margin-top: 10px;
+  background-color: rgb(221, 248, 221);
+}
+.inside-saving{
+  margin-left: 4%;
+  margin-top: 1px;
+  font-size: 20px;
+  color: green;
+  font-weight: 400;
+  padding-top: 10px;
+}
+.proceed-payment{
+  width: 100%;
+  height: 80px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.inside-pp{
+  width: 90%;
+  height: 60px;
+
+  margin-top: 10px;
+  margin-left: 4%;
+ display: flex;
+}
+.Total-p{
+  width: 20%;
+  height: 60px;
+  
+ font-size: 20px;
+ font-weight: 400;
+}
+.p-to-p-btn{
+  margin-top: 10px;
+  width: 80%;
+  height: 60px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: #0ba0a0;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  color: white;
+  cursor: pointer;
+}
